@@ -11,19 +11,43 @@
     />
     <title>CoD Zombies Maps</title>
   </head>
+
+  <!--Introduce grid into css after adding all the content to waw. add javascript for the buttons to swap descriptions and pictures-->
+
   <body>
     <header>
-      <h1>CoD Zombies Maps</h1>
-      <h3>from WaW to BO2</h3>
-      <nav>
-        <a class="nav-link" href="#WaW"><li>World at War</li></a>
-        <a class="nav-link" href="#BO1"><li>Black ops 1</li> </a>
-        <a class="nav-link" href="#BO2"><li>Black ops 2</li> </a>
-      </nav>
+      <div id="head-img">
+        <img
+          id="zombies-logo"
+          src="https://www.dafont.com/forum/attach/orig/1/9/195559.jpg"
+          alt="Zombies Logo"
+        />
+      </div>
+      <div id="title-sect">
+        <h1 id="title">CoD Zombies Maps</h1>
+        <h3 id="title-desc">from WaW to BO2</h3>
+      </div>
+      <div id="navbar">
+        <nav>
+          <a class="nav-link" href="#WaW"><li>World at War</li></a>
+          <a class="nav-link" href="#BO1"><li>Black ops 1</li> </a>
+          <a class="nav-link" href="#BO2"><li>Black ops 2</li> </a>
+        </nav>
+      </div>
     </header>
 
     <div id="container">
-      <div id="WaW"></div>
+      <div id="WaW">
+        <h2 id="waw-title">World at War</h2>
+        <section id="waw-maps">
+          <ol id="waw-list">
+            <li id="nacht-der-untoten">Nacht-der-untoten</li>
+            <li id="verrückt">Verrückt</li>
+            <li id="shi-no-numa">Shi-no-numa</li>
+            <li id="der-riese">Der-riese</li>
+          </ol>
+        </section>
+      </div>
       <div id="BO1"></div>
       <div id="BO2"></div>
     </div>
