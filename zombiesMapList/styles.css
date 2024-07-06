@@ -92,3 +92,23 @@ nav{
     text-align: center;
     margin: 1%;
 }
+
+
+@media (min-width: 330px){
+  *{
+    font-size: 0.75rem;
+  }
+  
+  li{
+    padding: 5px;
+  }
+  
+  html{
+    width: 100vw;
+  }
+  
+  .waw-grid-item{
+    font-size: 20px
+  }
+  
+}
