@@ -94,7 +94,13 @@ nav{
 }
 
 
-@media (min-width: 330px){
+@media (max-width: 1200px){
+    .waw-grid-item{
+        font-size: 20px
+      }
+}
+
+@media (max-width: 900px){
   *{
     font-size: 0.75rem;
   }
@@ -108,7 +114,16 @@ nav{
   }
   
   .waw-grid-item{
-    font-size: 20px
+    font-size: 14px
   }
   
 }
+
+@media (max-width: 600px){
+
+    .waw-grid-item{
+        font-size: 10px
+      }
+
+}
+
