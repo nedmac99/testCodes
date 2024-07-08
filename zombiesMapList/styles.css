@@ -1,5 +1,5 @@
 *{
-    /* border: 1px solid blueviolet; */
+    border: 1px solid blueviolet;
     margin: 0;
     color: white;
     box-sizing: border-box;
@@ -63,7 +63,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(87, 84, 80); */
+    background-color: #204063;
 }
 
 #waw-title{
@@ -76,21 +76,56 @@ nav{
     font-style: italic;
 }
 
+#waw-maps-desc-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
 #waw-maps{
+    width: 30%;
     align-self: flex-start;
     margin-left: 5%;
 }
 
 .waw-grid-container{
     display: grid;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 20%;
 }
 
 .waw-grid-item {
     padding: 20px;
     font-size: xx-large;
     text-align: center;
-    margin: 1%;
+    margin: 3%;
+}
+
+#waw-img{
+    width: 40%;
+    text-align: center;
+    margin-left: 10%;
+    background-image: url(https://i.ytimg.com/vi/m_NCSxNaIjg/maxresdefault.jpg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+#waw-maps-desc{
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  font-size: xx-large;
+}
+
+#waw-maps-desc > p{
+    padding: 50% 0;
+    color: white;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -102,7 +137,7 @@ nav{
 
 @media (max-width: 900px){
   *{
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
   
   li{
@@ -126,4 +161,3 @@ nav{
       }
 
 }
-

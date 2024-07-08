@@ -13,7 +13,7 @@
     <title>CoD Zombies Maps</title>
   </head>
 
-  <!--get it to where the description poppes up next to the map list. add javascript for the buttons to swap descriptions and pictures-->
+  <!--make sure that it is responsive on all screen sizes. start adding map descriptions and content. add javascript for the buttons to swap descriptions and pictures-->
 
   <body>
     <header>
@@ -42,21 +42,23 @@
         <div id="waw-container">
           <h2 id="waw-title">World at War</h2>
           <p id="waw-tagline">Where it all began...</p>
-          <section id="waw-maps">
-            <div class="waw-grid-container">
-              <button class="waw-grid-item" id="nacht-der-untoten">
-                Nacht-der-untoten
-              </button>
-              <button class="waw-grid-item" id="verrückt">Verrückt</button>
-              <button class="waw-grid-item" id="shi-no-numa">
-                Shi-no-numa
-              </button>
-              <button class="waw-grid-item" id="der-riese">Der-riese</button>
-            </div>
-          </section>
+          <div id="waw-maps-desc-container">
+            <section id="waw-maps">
+              <div class="waw-grid-container">
+                <button class="waw-grid-item" id="nacht-der-untoten">
+                  Nacht-der-untoten
+                </button>
+                <button class="waw-grid-item" id="verrückt">Verrückt</button>
+                <button class="waw-grid-item" id="shi-no-numa">
+                  Shi-no-numa
+                </button>
+                <button class="waw-grid-item" id="der-riese">Der-riese</button>
+              </div>
+            </section>
 
-          <div id="waw-descriptions">
-            <p>this is a line of text to test how this responds</p>
+            <div id="waw-img">
+              <div id="waw-maps-desc"><p>Text to see how it reacts</p></div>
+            </div>
           </div>
         </div>
         <div id="BO1"></div>
