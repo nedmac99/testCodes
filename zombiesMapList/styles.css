@@ -63,7 +63,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #204063;
+    /* background-color: #204063; */
 }
 
 #waw-title{
@@ -105,7 +105,7 @@ nav{
 #waw-img{
     width: 40%;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 12%;
     background-image: url(https://i.ytimg.com/vi/m_NCSxNaIjg/maxresdefault.jpg);
     background-size: cover;
     border-radius: 25px;
